@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sagar Kale | Java Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- PAGE TRANSITION OVERLAY -->
+<div id="page-transition"></div>
+
+<!-- BACK TO TOP -->
+<button id="backToTop" title="Back to top">↑</button>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-logo">sagar<span>.dev</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#experience">experience</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="#contact" class="nav-cta">Hire Me ✦</a>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section class="hero" id="home">
+
+  <!-- Animated blobs -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+
+  <!-- Grid overlay -->
+  <div class="hero-grid"></div>
+
+  <div class="hero-inner">
+    <div class="hero-badge">
+      <span class="live-dot"></span>
+      Open to Work — MCA 2026
+    </div>
+
+    <h1 class="hero-heading">
+      <span class="line1">Hi, I'm</span>
+      <span class="line2">Sagar <em>Kale</em></span>
+      <span class="line3">
+        <span class="role-wrap">
+          <span class="role-bracket">&lt;</span><span id="typing"></span><span class="cursor-blink">_</span><span class="role-bracket">/&gt;</span>
+        </span>
+      </span>
+    </h1>
+
+    <p class="hero-desc">
+      MCA student at Shivaji University · Java Full Stack Developer ·
+      Building real-world web apps with Spring Boot &amp; React.
+      Currently at <strong>Qweez Technology, Kolhapur</strong> 🚀
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="hero-btn-main">Explore My Work</a>
+      <a href="#contact"  class="hero-btn-ghost">Let's Talk →</a>
+    </div>
+
+    <div class="hero-links">
+      <a href="https://github.com/SagarKale18" target="_blank" class="hlink">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        github.com/SagarKale18
+      </a>
+      <a href="https://linkedin.com/in/sagar-kale-710348301" target="_blank" class="hlink">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        linkedin/sagar-kale
+      </a>
+      <a href="mailto:work.sagarkale@gmail.com" class="hlink">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        work.sagarkale@gmail.com
+      </a>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-pill">
+      <span class="scroll-arrow"></span>
+      scroll
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ABOUT ══════════════ -->
+<section id="about" class="section reveal">
+  <div class="sec-label">01 — about me</div>
+  <h2 class="sec-title">Who Am I?</h2>
+
+  <div class="about-layout">
+    <div class="about-text-col">
+      <p>I'm <strong>Sagar Nagnath Kale</strong> from Solapur, Maharashtra — an MCA student specializing in <strong>Java Full Stack Development</strong>. I love turning ideas into real, working web apps.</p>
+      <p>My stack centers on <strong>Java + Spring Boot</strong> for backend and <strong>React / Tailwind CSS</strong> for frontend. I care about clean code, good structure, and things that actually work.</p>
+      <p>Currently interning at <strong>Qweez Technology, Kolhapur</strong> — gaining real enterprise Java experience while also building and shipping real client and startup projects, including my own EdTech venture, <strong>BRAGHU TECHNOLOGY</strong>. 💼</p>
+
+      <div class="about-info-grid">
+        <div class="aig-row"><span>📍</span><span>Solapur, Maharashtra</span></div>
+        <div class="aig-row"><span>🎓</span><span>MCA — Shivaji University (2026)</span></div>
+        <div class="aig-row"><span>💼</span><span class="open-badge">Open to Work ✅</span></div>
+        <div class="aig-row"><span>🗣</span><span>English · Hindi · Marathi</span></div>
+        <div class="aig-row"><span>📞</span><span>9657447609</span></div>
+        <div class="aig-row"><span>📧</span><span>work.sagarkale@gmail.com</span></div>
+      </div>
+    </div>
+
+    <div class="about-right-col">
+      <div class="counter-grid">
+        <div class="counter-card">
+          <div class="counter-num" data-target="6">0</div>
+          <div class="counter-label">Projects</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-num" data-target="2">0</div>
+          <div class="counter-label">Internships</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-num" data-target="88">0</div>
+          <div class="counter-label">HSC Score %</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-num" data-target="2026">0</div>
+          <div class="counter-label">MCA Grad</div>
+        </div>
+      </div>
+
+      <div class="edu-card">
+        <div class="edu-card-title">🎓 Education</div>
+        <div class="edu-line"><span class="edu-tag">MCA</span><span>79.81%</span><span class="edu-yr">Done</span></div>
+        <div class="edu-line"><span class="edu-tag">BCA</span><span>75.11%</span><span class="edu-yr">Done</span></div>
+        <div class="edu-line"><span class="edu-tag">HSC</span><span>88.50%</span><span class="edu-yr">Done</span></div>
+        <div class="edu-line"><span class="edu-tag">SSC</span><span>82.80%</span><span class="edu-yr">Done</span></div>
+      </div>
+
+      <div class="cert-banner">
+        <span class="cert-icon">🏆</span>
+        <div>
+          <strong>Java Full Stack Development</strong>
+          <span>Qweez Technology, Kolhapur</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ SKILLS ══════════════ -->
+<section id="skills" class="section section-tinted reveal">
+  <div class="sec-label">02 — skills</div>
+  <h2 class="sec-title">My Tech Stack</h2>
+
+  <div class="skills-two-col">
+    <div class="skill-panel">
+      <h3 class="skill-panel-title">☕ Languages & Core</h3>
+      <div class="bar-list">
+        <div class="bar-row"><span>Java</span><span>85%</span><div class="bar-track"><div class="bar-fill" data-w="85"></div></div></div>
+        <div class="bar-row"><span>JavaScript</span><span>70%</span><div class="bar-track"><div class="bar-fill" data-w="70"></div></div></div>
+        <div class="bar-row"><span>HTML5</span><span>90%</span><div class="bar-track"><div class="bar-fill" data-w="90"></div></div></div>
+        <div class="bar-row"><span>CSS3</span><span>82%</span><div class="bar-track"><div class="bar-fill" data-w="82"></div></div></div>
+      </div>
+    </div>
+    <div class="skill-panel">
+      <h3 class="skill-panel-title">⚙️ Frameworks & DB</h3>
+      <div class="bar-list">
+        <div class="bar-row"><span>Spring Boot</span><span>75%</span><div class="bar-track"><div class="bar-fill" data-w="75"></div></div></div>
+        <div class="bar-row"><span>React / Tailwind CSS</span><span>72%</span><div class="bar-track"><div class="bar-fill" data-w="72"></div></div></div>
+        <div class="bar-row"><span>MySQL</span><span>80%</span><div class="bar-track"><div class="bar-fill" data-w="80"></div></div></div>
+        <div class="bar-row"><span>Supabase / MongoDB</span><span>60%</span><div class="bar-track"><div class="bar-fill" data-w="60"></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chip-cloud">
+    <span class="chip">OOP</span><span class="chip">Collections</span>
+    <span class="chip">REST API</span><span class="chip">MVC</span>
+    <span class="chip">Git</span><span class="chip">GitHub</span>
+    <span class="chip">Tailwind CSS</span><span class="chip">Vite</span>
+    <span class="chip">EmailJS</span><span class="chip">Bootstrap</span>
+    <span class="chip">Thymeleaf</span>
+    <span class="chip">Eclipse IDE</span><span class="chip">VS Code</span>
+    <span class="chip learning">Docker 🔄</span>
+    <span class="chip learning">Microservices 🔄</span>
+    <span class="chip learning">AWS 🔄</span>
+  </div>
+</section>
+
+<!-- ══════════════ EXPERIENCE ══════════════ -->
+<section id="experience" class="section reveal">
+  <div class="sec-label">03 — experience</div>
+  <h2 class="sec-title">Internships</h2>
+
+  <div class="exp-timeline">
+    <div class="exp-item">
+      <div class="exp-dot active"></div>
+      <div class="exp-card tilt-card">
+        <div class="exp-top">
+          <div>
+            <h3>Java Development Intern</h3>
+            <p class="exp-company">🏢 Qweez Technology, Kolhapur</p>
+          </div>
+          <span class="exp-badge current">● Current</span>
+        </div>
+        <ul>
+          <li>Working on Java Full Stack projects using Spring Boot</li>
+          <li>Backend REST APIs, database design with MySQL</li>
+          <li>Frontend development with HTML, CSS, JavaScript</li>
+          <li>Earned <strong>Java Full Stack Certification</strong></li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip sm">Java</span><span class="chip sm">Spring Boot</span>
+          <span class="chip sm">MySQL</span><span class="chip sm">HTML/CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-card tilt-card">
+        <div class="exp-top">
+          <div>
+            <h3>Web Development Intern (Virtual)</h3>
+            <p class="exp-company">🏢 MotionCut</p>
+          </div>
+          <span class="exp-badge done">Completed</span>
+        </div>
+        <ul>
+          <li>Frontend and backend web development tasks</li>
+          <li>Built UI components with React</li>
+          <li>Database connectivity and API integration</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip sm">React</span><span class="chip sm">JavaScript</span>
+          <span class="chip sm">HTML/CSS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ PROJECTS ══════════════ -->
+<section id="projects" class="section section-tinted reveal">
+  <div class="sec-label">04 — projects</div>
+  <h2 class="sec-title">What I've Built</h2>
+  <p class="sec-sub">All projects are live on GitHub 👇</p>
+
+  <div class="proj-grid">
+
+    <div class="proj-card tilt-card featured-proj">
+      <div class="proj-stripe"></div>
+      <div class="proj-head"><span class="pnum">01</span><span class="fpill">⭐ Featured</span></div>
+      <h3>BRAGHU Technology</h3>
+      <p class="psub">EdTech Startup — Official Website</p>
+      <p class="pdesc">Official website for BRAGHU TECHNOLOGY, an MSME-registered EdTech startup offering virtual internships and career training. Custom design system, canvas particle animations, and a live enrollment pipeline.</p>
+      <ul class="pfeatures"><li>Internship Programs</li><li>Certificate Verification</li><li>Canvas Animations</li><li>Google Form Enrollment</li></ul>
+      <div class="pfoot">
+        <div class="plang"><span class="ldot js"></span>JS · <span class="chip sm">React</span><span class="chip sm">Vite</span><span class="chip sm">Tailwind CSS</span></div>
+        <a href="https://github.com/SagarKale18/BRAGHU-Technology-Website" target="_blank" class="plink">Code →</a>
+      </div>
+    </div>
+
+    <div class="proj-card tilt-card featured-proj">
+      <div class="proj-stripe"></div>
+      <div class="proj-head"><span class="pnum">02</span><span class="fpill">⭐ Featured</span></div>
+      <h3>NutriLogic</h3>
+      <p class="psub">Health Intelligence Platform</p>
+      <p class="pdesc">Full-stack health tracking app with BMI calculation and personalized nutrition guidance. Spring Boot backend with MySQL and a clean, responsive frontend.</p>
+      <ul class="pfeatures"><li>BMI Calculator</li><li>Nutrition Guidance</li><li>User Authentication</li><li>MySQL Database</li></ul>
+      <div class="pfoot">
+        <div class="plang"><span class="ldot java"></span>Java · <span class="chip sm">Spring Boot</span><span class="chip sm">MySQL</span></div>
+        <a href="https://github.com/SagarKale18/NutriLogic" target="_blank" class="plink">Code →</a>
+      </div>
+    </div>
+
+    <div class="proj-card tilt-card">
+      <div class="proj-head"><span class="pnum">03</span><span class="gpill">📂 GitHub</span></div>
+      <h3>Nanda Aluminium</h3>
+      <p class="psub">Business Website</p>
+      <p class="pdesc">Modern site for a Kolhapur-based aluminium products company. EmailJS-powered contact form and a sticky WhatsApp button for instant customer inquiries.</p>
+      <div class="pfoot">
+        <div class="plang"><span class="ldot js"></span>JS · <span class="chip sm">React</span><span class="chip sm">Tailwind</span><span class="chip sm">EmailJS</span></div>
+        <a href="https://github.com/SagarKale18/Nanda-Aluminium" target="_blank" class="plink">Code →</a>
+      </div>
+    </div>
+
+    <div class="proj-card tilt-card">
+      <div class="proj-head"><span class="pnum">04</span><span class="gpill">📂 GitHub</span></div>
+      <h3>Nirmal Developers</h3>
+      <p class="psub">Real Estate Company Site</p>
+      <p class="pdesc">About Us and Contact pages for a real estate company in Phaltan, featuring animated counters, scroll-reveal effects, and a sticky WhatsApp CTA.</p>
+      <div class="pfoot">
+        <div class="plang"><span class="ldot js"></span>JS · <span class="chip sm">React</span><span class="chip sm">Vite</span><span class="chip sm">Tailwind</span></div>
+        <a href="https://github.com/SagarKale18/Nirmal-Developers" target="_blank" class="plink">Code →</a>
+      </div>
+    </div>
+
+    <div class="proj-card tilt-card">
+      <div class="proj-head"><span class="pnum">05</span><span class="gpill">📂 GitHub</span></div>
+      <h3>VR Enterprises</h3>
+      <p class="psub">Company Website — Team Project</p>
+      <p class="pdesc">About and Why-Choose-Us pages for a safety nets company, built to strict Figma spec as part of a 3-person development team.</p>
+      <div class="pfoot">
+        <div class="plang"><span class="ldot css"></span>CSS · <span class="chip sm">HTML</span><span class="chip sm">JavaScript</span></div>
+        <a href="https://github.com/SagarKale18/VR-Enterprises" target="_blank" class="plink">Code →</a>
+      </div>
+    </div>
+
+    <div class="proj-card tilt-card">
+      <div class="proj-head"><span class="pnum">06</span><span class="gpill">📂 GitHub</span></div>
+      <h3>GS Homeliness</h3>
+      <p class="psub">Furniture Business Website</p>
+      <p class="pdesc">Static, fully responsive site for a Nashik-based furniture business — includes a product image gallery with lightbox view.</p>
+      <div class="pfoot">
+        <div class="plang"><span class="ldot html"></span>HTML · <span class="chip sm">CSS</span><span class="chip sm">JavaScript</span></div>
+        <a href="https://github.com/SagarKale18/gs-homeliness" target="_blank" class="plink">Code →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="github-strip">
+    <p>See everything I've built on GitHub</p>
+    <a href="https://github.com/SagarKale18" target="_blank" class="hero-btn-main">Visit GitHub →</a>
+  </div>
+</section>
+
+<!-- ══════════════ CONTACT ══════════════ -->
+<section id="contact" class="section reveal">
+  <div class="sec-label">05 — contact</div>
+  <h2 class="sec-title">Get In Touch</h2>
+  <p class="sec-sub">Open to internship and entry-level Software Developer roles. Let's connect! 😊</p>
+
+  <div class="contact-layout">
+    <div class="contact-info-col">
+      <p class="contact-intro">I'm actively looking for opportunities. Whether it's a job, collaboration, or just a hello — my inbox is open.</p>
+      <div class="cinfo-cards">
+        <a href="mailto:work.sagarkale@gmail.com" class="cinfo-card">
+          <span>📧</span><div><strong>Email</strong><p>work.sagarkale@gmail.com</p></div>
+        </a>
+        <a href="tel:9657447609" class="cinfo-card">
+          <span>📞</span><div><strong>Phone</strong><p>9657447609</p></div>
+        </a>
+        <a href="https://linkedin.com/in/sagar-kale-710348301" target="_blank" class="cinfo-card">
+          <span>💼</span><div><strong>LinkedIn</strong><p>sagar-kale-710348301</p></div>
+        </a>
+        <a href="https://github.com/SagarKale18" target="_blank" class="cinfo-card">
+          <span>💻</span><div><strong>GitHub</strong><p>SagarKale18</p></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form-col">
+      <div class="form-box">
+        <h3>Send a Message</h3>
+        <p class="form-note">I'll reply within 24 hours 🙂</p>
+        <div class="fgroup"><label>Your Name</label><input type="text" id="fname" placeholder="e.g. Rahul Sharma"/></div>
+        <div class="fgroup"><label>Your Email</label><input type="email" id="femail" placeholder="e.g. rahul@gmail.com"/></div>
+        <div class="fgroup"><label>Subject</label><input type="text" id="fsubject" placeholder="e.g. Job Opportunity"/></div>
+        <div class="fgroup"><label>Message</label><textarea id="fmessage" rows="5" placeholder="Write your message here..."></textarea></div>
+        <button class="form-send" onclick="sendMsg()">Send Message 🚀</button>
+        <div id="form-ok" class="form-ok" style="display:none">✅ Message sent! I'll get back to you soon.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-blob"></div>
+  <div class="footer-inner">
+    <div class="footer-logo">sagar<span>.dev</span></div>
+    <p>Made with ❤️ by <strong>Sagar Nagnath Kale</strong> </p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
